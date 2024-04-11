@@ -1,0 +1,5 @@
+name: UnderBlocks
+version: '${project.version}'
+main: dev.hideko.underblocks.UnderBlocks
+api-version: '1.20'
+author: Hideko

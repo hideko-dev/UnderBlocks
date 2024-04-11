@@ -1,0 +1,19 @@
+1:
+  block:
+    - STONE
+    - GRASS_BLOCK
+  command:
+    - msg こんにちは！！
+    - playsound entity.generic.explode ambient @a
+
+2:
+  block:
+    - EMERALD_BLOCK
+  command:
+    - give @s emerald
+
+3:
+  block:
+    - DIAMOND_BLOCK
+  command:
+    - give @s diamond
