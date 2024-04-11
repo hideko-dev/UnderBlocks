@@ -22,7 +22,7 @@ class PlayerMove: Listener {
                         e.player.performCommand(cmd)
                     }
                 }
-                if(material !== null && material == underBlock) {
+                if(material !== null && underBlock !== Material.SNOW && material == underBlock) {
                     commands.forEach { cmd ->
                         e.player.performCommand(cmd)
                     }
